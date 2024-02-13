@@ -16,7 +16,7 @@ def generate_launch_description():
 
         Node(
             package='data_recording',
-            executable='data_recording.py',
+            executable='data_recording_ros2.py',
             name='data_recording',
             output='screen',
             parameters=[LaunchConfiguration('config_file')]
