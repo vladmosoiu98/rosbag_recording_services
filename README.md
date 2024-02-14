@@ -10,7 +10,9 @@ Configure the output directory for the rosbag files and topics to be recorded.\
 Rosbag files are saved with the current date and time as a filename. [**might change this**]
 
 ## Launching
-`ros2 launch data_recording data_recording.launch.py`
+```
+ros2 launch data_recording data_recording.launch.py
+```
 
 ## Services Available
 The package creates three services, which can be called with a `std_srvs.srv.TriggerRequest` message:
